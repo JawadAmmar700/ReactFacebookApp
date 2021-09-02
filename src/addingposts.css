@@ -1,0 +1,113 @@
+body {
+  display: block;
+}
+
+.insertPost {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.insertPost .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.insertPost .profile #insideUserPost {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.insertPost .profile h4 {
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+
+.insertPost .time {
+  position: relative;
+  top: 30px;
+  left: -88px;
+}
+
+.insertPost #body {
+  position: relative;
+  top: 40px;
+  left: 30px;
+  overflow: hidden;
+  -webkit-column-width: 200px;
+          column-width: 200px;
+}
+
+.insertPost #insideImgPost {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 300px;
+}
+
+.insertPost .social {
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60px;
+}
+
+.insertPost .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.insertPost .social ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+
+.insertPost .social ul li img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.insertPost .social ul li span {
+  position: relative;
+  left: 5px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.insertPost .social ul li span:hover {
+  background-color: #cdcde2;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=addingposts.css.map */

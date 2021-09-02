@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  background-color: #eee2e2;
+}
+
+nav {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.faceIcon {
+  width: 40px;
+  height: 40px;
+}
+
+#find {
+  width: 240px;
+  height: 40px;
+  border-radius: 40px;
+  margin-left: 5px;
+  outline: none;
+  background-color: #cfc9c9;
+  border: none;
+}
+
+.firstul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.firstul img {
+  width: 30px;
+  height: 30px;
+}
+
+.firstul li {
+  list-style-type: none;
+  margin-left: 5px;
+  width: 100px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.firstul li:hover {
+  background-color: #cdcde2;
+}
+
+.firstul .home {
+  border-radius: 0px;
+  border-bottom: 3px solid blue;
+}
+
+.secondul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 10px;
+}
+
+.secondul img {
+  width: 35px;
+  height: 35px;
+}
+
+.secondul li {
+  list-style-type: none;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #cdcde2;
+  border-radius: 35px;
+}
+
+.secondul li:hover {
+  background-color: #e8e8f3;
+}
+
+.secondul #user {
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.secondul #firstli {
+  background: none;
+}
+
+.secondul #firstli:hover {
+  background-color: #e8e8f3;
+}
+
+.thirdul {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.thirdul img {
+  width: 30px;
+  height: 30px;
+}
+
+.thirdul li {
+  list-style-type: none;
+  margin-left: 5px;
+  width: 200px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thirdul li:hover {
+  background-color: #cdcde2;
+  border-radius: 5px;
+}
+
+.thirdul p {
+  margin-left: 20px;
+}
+
+.thirdul #seconduser {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=faceHome.css.map */

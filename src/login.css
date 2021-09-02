@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.facebookIcon,h3,.loginbutton{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.facebookIcon{
+    margin-top: -200px;
+    background: none;
+}
+h3{
+    margin-top: -100px;
+    color:blue ;
+}
+.loginbutton{
+    margin-top: 250px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(48, 48, 238);
+    border-radius: 5px;
+
+}
+

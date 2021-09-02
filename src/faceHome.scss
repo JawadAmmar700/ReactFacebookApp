@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: block;
+    background-color: rgb(238, 226, 226);
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+}
+.faceIcon{
+    width: 40px;
+    height: 40px;
+}
+#find{
+    width: 240px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 5px;
+    outline: none;
+    background-color: rgb(207, 201, 201);
+    border: none;
+   
+}
+.firstul{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    li{
+        list-style-type: none;
+        margin-left: 5px;
+        width: 100px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       border-radius: 5px;
+        
+        &:hover{
+            background-color: rgb(205, 205, 226);
+          
+        }
+     
+    }
+    .home{
+        border-radius: 0px;
+        border-bottom: 3px solid blue;
+        
+        
+    }
+ 
+    
+}
+.secondul{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    img{
+        width: 35px;
+        height:35px;
+    }
+    li{
+        list-style-type: none;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(205, 205, 226);
+        border-radius: 35px;
+       
+        &:hover{
+            background-color: rgb(232, 232, 243);
+           
+        }
+}
+#user{
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+#firstli{
+    
+    background: none;
+}
+#firstli:hover{
+    background-color: rgb(232, 232, 243);
+}
+}
+
+.thirdul{
+    margin-left: 10px;
+    margin-top: 20px;
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    li{
+        list-style-type: none;
+        margin-left: 5px;
+        width: 200px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        
+        &:hover{
+            background-color: rgb(205, 205, 226);
+            border-radius: 5px;
+        }
+     
+    }
+    p{
+        margin-left: 20px;
+    }
+    #seconduser{
+        border-radius: 50%;
+    }
+}
