@@ -1,14 +1,15 @@
 import firebase from "firebase"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC-la36Qez9JxoKs8p8nSZbTg68fPCgYbg",
-  authDomain: "react-facebook-e73e4.firebaseapp.com",
-  projectId: "react-facebook-e73e4",
-  storageBucket: "react-facebook-e73e4.appspot.com",
-  messagingSenderId: "15233157253",
-  appId: "1:15233157253:web:59f977e6cd5c0b1e1981ec",
-  measurementId: "G-5F0Y8JXBTF",
+  apiKey: "AIzaSyBXEZd9X_DKo0QsyIacBQHuAVWixKgKoFU",
+  authDomain: "react-facebook-a9d5d.firebaseapp.com",
+  projectId: "react-facebook-a9d5d",
+  storageBucket: "react-facebook-a9d5d.appspot.com",
+  messagingSenderId: "570402492434",
+  appId: "1:570402492434:web:c3df3eb5aa175cdf1088cb",
+  measurementId: "G-ZVXBZGYWM4",
 }
+
 const firebaseApp = firebase.initializeApp(firebaseConfig)
 const database = firebaseApp.firestore()
 const auth = firebase.auth()
